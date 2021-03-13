@@ -8,7 +8,6 @@ app.use(cors());
 //AIzaSyAm5-b8unXmYcXelxm8j7X2csln6trDwME
 const webPush = require("web-push");
 const vapidKeys = webPush.generateVAPIDKeys();
-console.log(vapidKeys);
 
 const vapidKeys =
 {
