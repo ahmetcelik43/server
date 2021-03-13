@@ -19,7 +19,7 @@ webPush.setGCMAPIKey('AIzaSyAm5-b8unXmYcXelxm8j7X2csln6trDwME');
 
 webPush.setVapidDetails("mailto:ahmet.celik5443@gmail.com", vapidKeys.publicKey, vapidKeys.privateKey);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 80;
 
 app.post("/send_notification", (req, res) => {
     if (req.body.clientsID && req.body.yazi) {
