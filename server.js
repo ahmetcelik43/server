@@ -37,7 +37,9 @@ app.post("/send_notification", (req, res) => {
       return res.status(400).send({ message: "Eksik bilgi gönderildi..." });
     }
   });
-  
+  app.get("/", (req, res) => {
+   res.status(200).send("OK");
+  });
   app.listen(PORT, () => {
     console.log("Sunucu Başarılı bir şekilde çalışıyor...");
   });
