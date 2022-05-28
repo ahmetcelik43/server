@@ -43,7 +43,7 @@
 //     console.log("Sunucu Başarılı bir şekilde çalışıyor...");
 //   });
   const socketIO = require('socket.io');
-  const io = socketIO(123);
+  const io = socketIO(1234);
 
   io.on('connection', (socket) => {
     socket.send('Hoşgeldiniz sayın ' + socket.id);
@@ -51,5 +51,6 @@
       console.log('Bir kullanıcı ayrıldı: ' + socket.id);
     });
   });
+console.log('ok');
   /*
   {"endpoint":"https://fcm.googleapis.com/fcm/send/czmAx9qMoQE:APA91bGfMbCuWKFWDzMQ8skn76jxJptSrmN3w7M8gF7wR5NGX2ZBzZVR_buyXnWGCKFGEKJ_4Vp-YkDg6TJWG2Ir8U0MeNls997-PPMEb8GnxpZcoXmTXgY91YYDO2zNteGpI3gs5iwO","expirationTime":null,"keys":{"p256dh":"BJ6CnGvYd0p4tOcNCR22ytEaWkLaqZXFmHo9bycAwVb_iCkKA5-dYUxDpM1-IUMhJrgdfExtVgz6zEK1BgvCqqg","auth":"Alu9hVnh1dg6ePXdsd-8Uw"}}*/ 
