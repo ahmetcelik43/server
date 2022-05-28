@@ -1,10 +1,10 @@
-const express = require("express");
-const bodyParser = require("body-parser");
-const app = express();
-const cors = require("cors");
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(cors());
+// const express = require("express");
+// const bodyParser = require("body-parser");
+// const app = express();
+// const cors = require("cors");
+// app.use(bodyParser.json());
+// app.use(bodyParser.urlencoded({ extended: true }));
+// app.use(cors());
 //AIzaSyAm5-b8unXmYcXelxm8j7X2csln6trDwME
 // const webPush = require("web-push");
 // //const vapidKeys = webPush.generateVAPIDKeys();
