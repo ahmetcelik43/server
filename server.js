@@ -43,7 +43,7 @@
 //     console.log("Sunucu Başarılı bir şekilde çalışıyor...");
 //   });
   const socketIO = require('socket.io');
-  const io = socketIO("80");
+  const io = socketIO(123);
 
   io.on('connection', (socket) => {
     socket.send('Hoşgeldiniz sayın ' + socket.id);
