@@ -1,0 +1,27 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "amd-loader": "0.0.8",
+    "body-parser": "^1.19.0",
+    "codeflask": "^1.4.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "prismjs": "^1.23.0",
+    "requirejs": "^2.3.6",
+    "validate.js": "^0.13.1",
+    "vue": "^2.6.12",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2",
+    "web-push": "^3.4.4",
+    "socket.io":"4.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
